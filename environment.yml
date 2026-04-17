@@ -1,10 +1,10 @@
-name: dtp_2021
+name: fair
 channels:
-  - defaults
+  - conda-forge
 dependencies:
-  - python=3.7
+  - python
   - matplotlib
   - numpy
-  - pip:
-    - fair==1.6.1
-prefix: /opt/anaconda3/envs/dtp_2021
+  - fair
+  - jupyter
+prefix: /opt/anaconda3/envs/fair
